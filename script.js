@@ -22,12 +22,12 @@ if (curHr < 12) {
 else if (curHr < 16) {
     document.getElementById("greet").innerHTML = "Good Afternoon!!";
     document.getElementById("greet-img").src = "https://img.icons8.com/office/48/000000/fog-day--v2.png";
-    document.getElementById("message").innerHTML = "Have a good rest!";
+    document.getElementById("message").innerHTML = "Enjoy The Rest of Your Day!";
     document.getElementById("lottie").src = "https://assets6.lottiefiles.com/private_files/lf30_1xg5wkc5.json";
 }
 else {
     document.getElementById("greet").innerHTML = "Good Evening!!";
     document.getElementById("greet-img").src = "https://img.icons8.com/office/50/000000/partly-cloudy-night--v2.png";
-    document.getElementById("message").innerHTML = "Have good snacks!";
+    document.getElementById("message").innerHTML = Make The Most of Your Evening!;
     document.getElementById("lottie").src = "https://assets5.lottiefiles.com/packages/lf20_rlmeimrj.json";
 }
