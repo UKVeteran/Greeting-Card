@@ -28,6 +28,6 @@ else if (curHr < 16) {
 else {
     document.getElementById("greet").innerHTML = "Good Evening!!";
     document.getElementById("greet-img").src = "https://img.icons8.com/office/50/000000/partly-cloudy-night--v2.png";
-    document.getElementById("message").innerHTML = Make The Most of Your Evening!;
+    document.getElementById("message").innerHTML = "Make The Most of Your Evening!";
     document.getElementById("lottie").src = "https://assets5.lottiefiles.com/packages/lf20_rlmeimrj.json";
 }
