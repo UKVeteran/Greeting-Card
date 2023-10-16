@@ -14,7 +14,7 @@ setInterval(() => {
 }, 500);
 
 if (curHr < 12) {
-    document.getElementById("greet").innerHTML = "Guten Morgen!! Bon Matin!! ";
+    document.getElementById("greet").innerHTML = "Good Morning!! ";
     document.getElementById("greet-img").src = "https://img.icons8.com/color/48/000000/sun--v3.png"
     document.getElementById("message").innerHTML = "Have A Great Day!";
     document.getElementById("lottie").src = "https://assets7.lottiefiles.com/packages/lf20_b8z1hjre.json";
